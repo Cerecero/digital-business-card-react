@@ -7,6 +7,7 @@
     --background-color-footer: #161619;
     --text-color: #fff;
     --text-color-title: #F3BF99;
+    --svg-color: #918E9B;
 }
 *{
     /* outline: red solid 1px; */
@@ -76,16 +77,24 @@ body{
     font-weight: 700;
 }
 .about > p, .interest > p{
-    font-size: 10.24px;
-    line-height: 15.36px;
+    font-size: 12px;
+    letter-spacing: 0.01em;
+    line-height: 16px;
     margin: 5px 0;
 }
 .footer {
     background-color: var(--background-color-footer);
-    width: 317px;
     height: 44px;
-    border-radius: 0 0 10px 10px;
+    /* border-radius: 0 0 10px 10px; */
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    
+    padding: 20px 0 20px 0;
+}
+.footer a{
+    transform: scale(2);
+}
+.footer a:visited{
+    color: var(--svg-color);
 }
