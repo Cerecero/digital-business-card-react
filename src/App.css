@@ -9,9 +9,6 @@
     --text-color-title: #F3BF99;
     --svg-color: #918E9B;
 }
-*{
-    /* outline: red solid 1px; */
-}
 body{
     background-color: var(--background-color);
     font-family: 'Inter', sans-serif;
