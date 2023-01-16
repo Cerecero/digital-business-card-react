@@ -4,6 +4,7 @@
     --background-color-info: #1a1b21;
     --background-email-button: #fff;
     --background-linkedin-button: #5093E2;
+    --background-color-footer: #161619;
     --text-color: #fff;
     --text-color-title: #F3BF99;
 }
@@ -13,7 +14,7 @@
 body{
     background-color: var(--background-color);
     font-family: 'Inter', sans-serif;
-    
+    color: var(--text-color);
 }
 .App{
     display: flex;
@@ -31,10 +32,10 @@ body{
 }
 .main-info{
     background-color: var(--background-color-info);
+    width: 317px;
     margin-bottom: 44px;
 }
 .info {
-    color: var(--text-color);
     text-align: center;
 }
 .info .title{
@@ -66,4 +67,25 @@ body{
     outline: none;
     border: none;
     cursor: pointer;
+}
+.about-interest{
+    padding: 35px;
+}
+.about > h1, .interest > h1{
+    font-size: 16px;
+    font-weight: 700;
+}
+.about > p, .interest > p{
+    font-size: 10.24px;
+    line-height: 15.36px;
+    margin: 5px 0;
+}
+.footer {
+    background-color: var(--background-color-footer);
+    width: 317px;
+    height: 44px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
