@@ -1,11 +1,14 @@
 :root {
     --background-color: #1c1c1c;
     --background-color-app: #23252C;
+    --background-color-info: #1a1b21;
+    --background-email-button: #fff;
+    --background-linkedin-button: #5093E2;
     --text-color: #fff;
     --text-color-title: #F3BF99;
 }
 *{
-    outline: red solid 1px;
+    /* outline: red solid 1px; */
 }
 body{
     background-color: var(--background-color);
@@ -23,14 +26,22 @@ body{
     background-color: var(--background-color-app);
 }
 .portrait{
-    width: 300px;
+    width: 317px;
     border-radius: 10px 10px 0 0;
+}
+.main-info{
+    background-color: var(--background-color-info);
+    margin-bottom: 44px;
 }
 .info {
     color: var(--text-color);
+    text-align: center;
 }
 .info .title{
     color: var(--text-color-title);
+    line-height: 5px;
+    
+
 }
 .info-buttons{
     display: flex;
@@ -41,4 +52,18 @@ body{
     width: 115px;
     height: 34px;
     border-radius: 6px;
+    font-weight: bold;
+}
+.email{
+    background-color: var(--background-email-button);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.linkedin{
+    background-color: var(--background-linkedin-button);
+    color: var(--text-color);
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
